@@ -12,13 +12,14 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/favicon/favicon.ico') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/favicon/company.ico') }}" />
 
     @include('layouts.fonts')
 
     @include('layouts.icons')
 
     @include('layouts.styles')
+    <link rel="stylesheet" href="{{ asset('/assets/css/custom.css') }}">
 
     <!-- Helpers -->
     <script src="{{ asset('/assets/vendor/js/helpers.js') }}"></script>

@@ -1,0 +1,76 @@
+/* ===================================================
+   🌸 Custom Magenta Theme Override for PresensiSP2j
+   =================================================== */
+
+/* Sidebar background */
+.bg-menu-theme {
+  background: linear-gradient(180deg, #ff007f, #ff66cc) !important;
+  color: #fff !important;
+}
+
+/* Sidebar active & hover state */
+.bg-menu-theme.menu-vertical .menu-item.active > .menu-link:not(.menu-toggle) {
+  background: linear-gradient(90deg, #ff33a8, #ff66cc) !important;
+  box-shadow: 0px 2px 8px rgba(255, 51, 153, 0.5) !important;
+  color: #fff !important;
+}
+.bg-menu-theme .menu-inner .menu-item:not(.active) > .menu-link:hover {
+  background: rgba(255, 0, 150, 0.25) !important;
+  color: #fff !important;
+}
+
+/* Primary button */
+.btn-primary {
+  background: linear-gradient(90deg, #ff00a0, #ff66cc) !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: 0 2px 6px rgba(255, 0, 150, 0.4) !important;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #ff33a8, #ff99cc) !important;
+}
+
+/* Outline button */
+.btn-outline-primary {
+  border-color: #ff33aa !important;
+  color: #ff33aa !important;
+}
+.btn-outline-primary:hover {
+  background: linear-gradient(90deg, #ff33a8, #ff99cc) !important;
+  color: #fff !important;
+}
+
+/* Table header */
+.table thead th {
+  background: linear-gradient(90deg, #ff0077, #ff66cc) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* Input & select focus border */
+.form-control:focus,
+.form-select:focus {
+  border-color: #ff33aa !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 51, 153, 0.25) !important;
+}
+
+/* Checkbox & switch active color */
+.form-check-input:checked {
+  background-color: #ff33a8 !important;
+  border-color: #ff33a8 !important;
+}
+
+/* Link & text */
+a,
+.text-primary,
+.menu-link.active {
+  color: #ff33a8 !important;
+}
+a:hover {
+  color: #ff66cc !important;
+}
+
+/* Page header title color */
+h4, h5, h6 {
+  color: #ff33a8 !important;
+}

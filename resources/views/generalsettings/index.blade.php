@@ -247,9 +247,9 @@
                         :value="$setting->batas_presensi_lintashari ?? ''" />
                     <x-input-with-icon-label label="Cloud Id" name="cloud_id" icon="ti ti-cloud" :value="$setting->cloud_id ?? ''" />
                     <x-input-with-icon-label label="API Key" name="api_key" icon="ti ti-key" :value="$setting->api_key ?? ''" />
-                    <x-input-with-icon-label label="Domain Email (contoh: adamadifa.site)" name="domain_email" icon="ti ti-mail"
+                    <x-input-with-icon-label label="Domain Email (contoh: rickyhadi.site)" name="domain_email" icon="ti ti-mail"
                         :value="$setting->domain_email ?? ''" />
-                    <x-input-with-icon-label label="Domain WA Gateway (contoh: https://wa.adamadifa.site)" name="domain_wa_gateway"
+                    <x-input-with-icon-label label="Domain WA Gateway (contoh: https://wa.rickyhadi.site)" name="domain_wa_gateway"
                         icon="ti ti-message" :value="$setting->domain_wa_gateway ?? ''" />
                     <x-input-with-icon-label label="WA API Key" name="wa_api_key" icon="ti ti-brand-whatsapp" :value="$setting->wa_api_key ?? ''" />
                     <div class="form-group mb-3">
